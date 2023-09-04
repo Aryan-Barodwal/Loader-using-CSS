@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>make_loader</title>
+    <style>
+        *{
+            background-color: rgb(42, 133, 34);
+            overflow: hidden;
+        }
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+
+        }
+
+        body {
+            padding: 50px;
+
+        }
+
+        #loader {
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            /* background-color: wheat; */
+
+            border-radius: 50%;
+            border: 5px solid #ddd;
+            border-top-color: #333;
+
+            animation: rotate 1s linear infinite;
+            /* animation: rotate 1.2s ease-in 1; */
+
+
+            height: 200px;
+
+
+            width: 200px;
+            /* animation-iteration-count: infinite; */
+        }
+
+        @keyframes rotate {
+            0% {
+                rotate: 0deg;
+            }
+
+            100% {
+                rotate: 360deg;
+            }
+        }
+
+/* 
+            @keyframes rotate {
+                
+            
+            0% {
+                rotate: 180deg;
+            }
+
+            100% {
+                rotate: 0deg;
+            } */
+
+
+
+
+
+        /* } */
+
+        /* @keyframes rotate {
+            0%{
+
+            }
+            
+        } */
+    </style>
+
+</head>
+
+<body>
+    <div id="loader"></div>
+</body>
+
+</html>
